@@ -1,0 +1,225 @@
+{
+  "globals": {
+    "document": "readonly",
+    "navigator": "readonly",
+    "window": "readonly"
+  },
+  "env": {
+    "es2022": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "standard"
+  ],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "rules": {
+    "indent": [
+      "error",
+      2,
+      {
+        "SwitchCase": 1
+      }
+    ],
+    "linebreak-style": [
+      "error",
+      "unix"
+    ],
+    "eol-last": [
+      "error",
+      "always"
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "semi": [
+      "error",
+      "always"
+    ],
+    "space-before-function-paren": [
+      "error",
+      {
+        "anonymous": "always",
+        "named": "never",
+        "asyncArrow": "always"
+      }
+    ],
+    "no-extra-semi": "error",
+    "multiline-comment-style": [
+      "error",
+      "starred-block"
+    ],
+    "arrow-body-style": [
+      "error",
+      "as-needed"
+    ],
+    "no-trailing-spaces": "error",
+    "constructor-super": "error",
+    "no-this-before-super": "error",
+    "no-var": "error",
+    "object-property-newline": "warn",
+    "no-inline-comments": [
+      "warn",
+      {
+        "ignorePattern": "webpack\\w*:\\s*.+(\"|'|`)"
+      }
+    ],
+    "one-var": [
+      "warn",
+      {
+        "separateRequires": true,
+        "var": "never",
+        "let": "never",
+        "const": "never"
+      }
+    ],
+    "one-var-declaration-per-line": [
+      "warn",
+      "always"
+    ],
+    "no-multi-str": "error",
+    "array-bracket-newline": [
+      "warn",
+      {
+        "multiline": true,
+        "minItems": 4
+      }
+    ],
+    "array-element-newline": [
+      "warn",
+      {
+        "multiline": true,
+        "minItems": 4
+      }
+    ],
+    "function-paren-newline": [
+      "warn",
+      "consistent"
+    ],
+    "function-call-argument-newline": [
+      "warn",
+      "consistent"
+    ],
+    "func-call-spacing": [
+      "warn",
+      "never"
+    ],
+    "implicit-arrow-linebreak": [
+      "warn",
+      "beside"
+    ],
+    "comma-dangle": [
+      "warn",
+      "always-multiline"
+    ],
+    "max-params": [
+      "warn",
+      3
+    ],
+    "complexity": [
+      "warn",
+      2
+    ],
+    "newline-after-var": [
+      "warn",
+      "always"
+    ],
+    "lines-around-comment": [
+      "warn",
+      {
+        "allowBlockStart": true,
+        "allowBlockEnd": false,
+        "beforeBlockComment": true,
+        "beforeLineComment": true,
+        "afterBlockComment": false,
+        "afterLineComment": false
+      }
+    ],
+    "lines-between-class-members": [
+      "warn",
+      "always",
+      {
+        "exceptAfterSingleLine": true
+      }
+    ],
+    "max-statements-per-line": [
+      "warn",
+      {
+        "max": 1
+      }
+    ],
+    "multiline-ternary": [
+      "warn",
+      "always-multiline"
+    ],
+    "newline-per-chained-call": [
+      "warn",
+      {
+        "ignoreChainWithDepth": 1
+      }
+    ],
+    "padding-line-between-statements": [
+      "warn",
+      {
+        "blankLine": "always",
+        "prev": "directive",
+        "next": "*"
+      },
+      {
+        "blankLine": "never",
+        "prev": [
+          "directive"
+        ],
+        "next": [
+          "directive"
+        ]
+      },
+      {
+        "blankLine": "always",
+        "prev": "*",
+        "next": "return"
+      },
+      {
+        "blankLine": "always",
+        "prev": [
+          "const",
+          "let",
+          "var"
+        ],
+        "next": "*"
+      },
+      {
+        "blankLine": "any",
+        "prev": [
+          "const",
+          "let",
+          "var"
+        ],
+        "next": [
+          "const",
+          "let",
+          "var"
+        ]
+      },
+      {
+        "blankLine": "always",
+        "prev": [
+          "case",
+          "default"
+        ],
+        "next": "*"
+      }
+    ],
+    "no-multiple-empty-lines": [
+      "warn",
+      {
+        "max": 1,
+        "maxEOF": 0,
+        "maxBOF": 0
+      }
+    ]
+  }
+}
