@@ -74,7 +74,6 @@ In your project set your environments. All environment options [`see`](https://e
     "browser": true,
     "node": false,
     "mocha": true
-    ...
   },
   "extends": "el"
 }
@@ -103,8 +102,7 @@ You can override settings from the shareable config by adding them directly into
       {
         "SwitchCase": 0
       }
-    ],
-    ...
+    ]
   }
 }
 ```
@@ -114,12 +112,10 @@ you can use the command line by writing `npx eslint .` - to show admonitions and
 You can also add scripts to your package, e.g. (in your package.json, in the "script" section):
 
 ```json
-  // ...
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
-  },
-  // ...
+  }
 ```
 
 And then at your command line, type `npm run lint` - to run the lint script command (just for guidance).
