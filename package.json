@@ -1,0 +1,59 @@
+{
+  "name": "eslint-config-el",
+  "version": "0.1.0",
+  "description": "JavaScript EL Style - ESLint Shareable Config",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EliotPu/eslint-config-el.git"
+  },
+  "keywords": [
+    "JavaScript EL Style",
+    "check",
+    "checker",
+    "code",
+    "code checker",
+    "code linter",
+    "code standards",
+    "code style",
+    "enforce",
+    "eslint",
+    "eslintconfig",
+    "hint",
+    "jscs",
+    "jshint",
+    "lint",
+    "policy",
+    "quality",
+    "simple",
+    "standard",
+    "standard style",
+    "style",
+    "style checker",
+    "style linter",
+    "verify"
+  ],
+  "author": "EliotPu <78807845+EliotPu@users.noreply.github.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EliotPu/eslint-config-el/issues"
+  },
+  "homepage": "https://github.com/EliotPu/eslint-config-el#readme",
+  "devDependencies": {
+    "eslint": "^8.43.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^16.0.1",
+    "eslint-plugin-promise": "^6.1.1"
+  },
+  "peerDependencies": {
+    "eslint": ">=8.0.1",
+    "eslint-config-standard": ">=17.1.0",
+    "eslint-plugin-import": ">=2.25.2",
+    "eslint-plugin-n": ">=15",
+    "eslint-plugin-promise": ">=6"
+  }
+}
