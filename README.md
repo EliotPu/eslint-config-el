@@ -111,7 +111,19 @@ You can override settings from the shareable config by adding them directly into
 
 In addition to fixes in the IDE itself (if you have the ESLint extension),
 you can use the command line by writing `npx eslint .` - to show admonitions and `npx eslint . --fix` - to fix it.
-You can also add scripts to your package, for example:
+You can also add scripts to your package, e.g. (in your package.json, in the "script" section):
+
+```json
+  // ...
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  // ...
+```
+
+And then at your command line, type `npm run lint` - to run the lint script command (just for guidance).
+And `npm run lint:fix` to fix your code.
 
 *NOTE: ("`.`" - points to the project root, check everything in starting from the project root)*
 
