@@ -113,8 +113,8 @@ You can also add scripts to your package, e.g. (in your package.json, in the "sc
 
 ```json
   "scripts": {
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint": "eslint . --ext js,mjs,cjs",
+    "lint:fix": "eslint . --fix --ext js,mjs,cjs",
   }
 ```
 
@@ -122,6 +122,8 @@ And then at your command line, type `npm run lint` - to run the lint script comm
 And `npm run lint:fix` to fix your code.
 
 *NOTE: ("`.`" - points to the project root, check everything in starting from the project root)*
+
+*NOTE: the `--ext js,mjs,cjs` option tells eslint which extensions to check, in this example the three types js, mjs (ESM), cjs (CommunmJS)*
 
 ### Looking for something easier than this?
 
