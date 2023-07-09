@@ -121,7 +121,7 @@
     ],
     "complexity": [
       "warn",
-      2
+      10
     ],
     "newline-after-var": [
       "warn",
