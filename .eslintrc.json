@@ -66,7 +66,7 @@
     "no-var": "error",
     "object-property-newline": "warn",
     "no-inline-comments": [
-      "warn",
+      "off",
       {
         "ignorePattern": "webpack\\w*:\\s*.+(\"|'|`)"
       }
