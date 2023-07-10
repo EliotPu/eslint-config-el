@@ -15,6 +15,9 @@ El project adheres to [Semantic Versioning](http://semver.org/).
 [commit log](https://github.com/standard/eslint-config-standard/commits/master) is
 also quite readable.
 
+## [1.1.1] - 2023-07-10
+- [package]: devDependencies -> peerDependencies
+- [eslint]: remove "root" option
 
 ## [1.1.0] - 2023-07-10
 
