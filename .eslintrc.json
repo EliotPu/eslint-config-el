@@ -1,4 +1,5 @@
 {
+  "root": true,
   "globals": {
     "document": "readonly",
     "navigator": "readonly",
@@ -137,9 +138,17 @@
         "allowBlockStart": true,
         "allowBlockEnd": false,
         "beforeBlockComment": true,
-        "beforeLineComment": true,
         "afterBlockComment": false,
-        "afterLineComment": false
+        "beforeLineComment": true,
+        "afterLineComment": false,
+        "allowObjectStart": true,
+        "allowObjectEnd": false,
+        "allowArrayStart": true,
+        "allowArrayEnd": false,
+        "allowClassStart": true,
+        "allowClassEnd": false,
+        "applyDefaultIgnorePatterns": true,
+        "afterHashbangComment": true
       }
     ],
     "lines-between-class-members": [
