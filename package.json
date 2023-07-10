@@ -48,21 +48,14 @@
     "node": ">=16.13.1",
     "npm": ">=7.10.0"
   },
-  "devDependencies": {
-    "eslint": "^8.43.0",
-    "eslint-config-standard": "^17.1.0",
-    "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-n": "^16.0.1",
-    "eslint-plugin-promise": "^6.1.1",
-    "@types/eslint": "^8.4.1",
-    "@types/tape": "^4.13.2",
-    "tape": "^5.5.2"
-  },
   "peerDependencies": {
-    "eslint": ">=8.0.1",
-    "eslint-config-standard": ">=17.1.0",
-    "eslint-plugin-import": ">=2.25.2",
+    "eslint": "^6.0.0 || ^7.0.0 || >=8.0.0",
+    "eslint-config-standard": ">=17",
+    "eslint-plugin-import": ">=2",
     "eslint-plugin-n": ">=15",
-    "eslint-plugin-promise": ">=6"
+    "eslint-plugin-promise": ">=6",
+    "@types/eslint": ">=8",
+    "@types/tape": ">=4",
+    "tape": ">=5"
   }
 }
